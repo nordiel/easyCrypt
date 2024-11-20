@@ -34,7 +34,7 @@ def create_ui():
         fn=encrypt_file,
         inputs=gr.File(label="Upload a file to encrypt (e.g., .txt, .docx, etc.)"),
         outputs=gr.File(label="Encrypted file"),
-        title="asyCrypt"
+        title="easyCrypt"
     )
 
     decrypt_interface = gr.Interface(
